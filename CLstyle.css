@@ -1,0 +1,103 @@
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+
+  .Main-Page {
+    display: flex;
+  }
+
+  .information-display {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2rem;
+  }
+
+  .information-display p {
+    color: gray;
+    font-size: 1rem;
+  }
+
+  .firstline {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+
+  .heart {
+    height: 2rem;
+    width: 2rem;
+    color: red;
+    background-color: #fff;
+  }
+
+  .heart:hover {
+    cursor: pointer;
+  }
+  button{
+    border:  #818181;
+  }
+
+  button:hover {
+    cursor: pointer;
+    color: #838383;;
+    background-color: rgb(38, 22, 125);
+    
+  }
+  a:-webkit-any-link{
+    text-decoration: none;
+  }
+
+.dark .card-list {
+  background-color: #212124;
+}
+
+.dark * {
+  background-color: #212124;
+}
+
+.dark button {
+  background-color: #818181;
+  color: #fff;
+}
+
+
+.dark.Main-Page {
+  background-color: #212124;
+  color: beige;
+}
+
+.dark .information-display {
+  background-color: #212124;
+}
+
+.dark .information-display p {
+  color: #818181;
+}
+
+.dark .card-list{
+  background-color: #212124;
+  color: beige;
+}
+.dark a {
+  text-decoration: none;
+  color: beige;
+  background-color: #212124;
+}
+
+.dark a:-webkit-any-link{
+  text-decoration: none;
+  background-color: #212124;
+  color: beige;
+}
+
+element.style .dark{
+  background-color: #212124;
+}
+
+.dark{
+  color: beige;
+}

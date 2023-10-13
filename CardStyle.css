@@ -1,0 +1,52 @@
+.card {
+    height: 14rem;
+    width: 14rem;
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s ease; /* Add transition for hover effect */
+  }
+  
+  .card img {
+    height: 12rem;
+    width: 14rem;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .sizeCss {
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  .fileName {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+  }
+  
+  .card:hover {
+    transform: translateY(-0.5rem);
+    cursor: pointer;
+  }
+  
+  /* Apply dark styles when .dark class is present */
+  .card.dark {
+    background-color: #212124;
+    color: beige;
+  }
+  
+  /* Apply dark styles to .fileName and .sizeCss inside .card.dark */
+  .card.dark .fileName,
+  .card.dark .sizeCss {
+    background-color: #212124;
+    color: beige;
+  }
+  
+
+
